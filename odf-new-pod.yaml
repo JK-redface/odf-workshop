@@ -7,7 +7,7 @@ metadata:
   namespace: test
 spec:
   containers:
-    - name: httpd
+    - name: new-httpd
       image: 'image-registry.openshift-image-registry.svc:5000/openshift/httpd:latest'
       ports:
         - containerPort: 8080
