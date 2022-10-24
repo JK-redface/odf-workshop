@@ -4,7 +4,6 @@ metadata:
   name: new-pod-odf
   labels:
     app: httpd
-  namespace: test
 spec:
   containers:
     - name: new-httpd
