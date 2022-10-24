@@ -4,7 +4,6 @@ metadata:
   name: pod-for-odf
   labels:
     app: httpd
-  namespace: test
 spec:
   initContainers:
     - name: init
